@@ -1,4 +1,5 @@
 .navLinks {
+    color: var(--text-color);
     display: flex;
     flex-direction: row;
     gap: 60px;
