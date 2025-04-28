@@ -1,8 +1,10 @@
 .navLinks {
-    color: var(--text-color);
     display: flex;
     flex-direction: row;
     gap: 60px;
+}
+.link {
+    color: var(--text-color);
 }
 .link:visited {
     color: inherit;
