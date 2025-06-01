@@ -1,0 +1,4 @@
+.div::selection {
+    color: rgb(169, 222, 233);
+    background: rgb(85, 115, 190);
+}

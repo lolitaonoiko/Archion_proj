@@ -1,0 +1,27 @@
+.mobileHeader {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.burger {
+    stroke: black;
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        width: 1280px;
+    }
+}

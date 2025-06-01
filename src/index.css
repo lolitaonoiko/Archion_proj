@@ -1,7 +1,9 @@
 @import './css/fonts.css';
+@import './css/variables.css';
 
 html {
     scroll-behavior: smooth;
+    line-height: 1;
 }
 
 body {
@@ -9,10 +11,7 @@ body {
 
     font-weight: 400;
     font-size: 12px;
-
-    line-height: 1;
     letter-spacing: 0.2em;
-    text-transform: uppercase;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -45,6 +44,7 @@ ol {
     margin: 0;
     padding: 0;
 }
+
 img {
     display: block;
     max-width: 100%;
